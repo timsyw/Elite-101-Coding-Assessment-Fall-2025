@@ -42,6 +42,16 @@ from datetime import datetime, timedelta
 # - Save/load catalog to file (CSV or JSON)
 # - Anything else you want to build on top of the system!
 
-if __name__ == "__main__":
+
+
+
+
+
+
+
+
+#if __name__ == "__main__":
     # You can use this space to test your functions
-    pass
+
+
+#    pass
