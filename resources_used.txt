@@ -9,3 +9,10 @@ used these resources to figure out how to use datetime:
 - http://docs.python.org/3/library/datetime.html
 
 
+was having lots of problems when I was seperating out all of the functions into different files based on their tasks.
+because of this I googled circular import:
+https://www.oneworldcoders.com/apprentice-journals/python-circular-imports
+
+I actually copied the code of one of my chatbot to make the menu system. here is the code from that one. 
+https://github.com/timsyw/bank-chatbot-c2c
+
