@@ -43,6 +43,7 @@ from library_books import library_books
 from book_class import BookClass
 from function_flow import function_flow
 from general_functions import print_message, ask_user_next, print_options
+from program_state import program_is_running
 
 #creates a bunch of objects based on library list of dictionaries. Creates a list of references.
 def add_dictionaries_to_book_classes(list_of_books):
@@ -68,7 +69,6 @@ add_dictionaries_to_book_classes(library_books)
 
 
 if __name__ == "__main__":
-    program_is_running = True
     while program_is_running == True:
 
         #prints the starting message
@@ -78,7 +78,6 @@ if __name__ == "__main__":
         current_number_of_options = print_options(current_message_id)
         #asks the user to answer the question of 
         current_message_id = ask_user_next(current_message_id, current_number_of_options)
-
 
         #print_all_books_available()
         #search_through_books()

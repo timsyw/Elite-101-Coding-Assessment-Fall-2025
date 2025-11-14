@@ -23,6 +23,7 @@ def checkout_book():
 
 
 def checkout_book():
+    
     all_books = BookClass.book_log_objects
     needed_book_id = input("Please enter a book ID: ")
 
@@ -34,6 +35,9 @@ def checkout_book():
             return
     
     print("No book with that ID exists.")
+
+    #I need to do this because it must always be updated.
+    
 
     end_of_action = end_of_action_question()
 

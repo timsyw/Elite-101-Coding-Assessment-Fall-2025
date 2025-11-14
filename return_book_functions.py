@@ -3,6 +3,7 @@ from general_functions import end_of_action_question
 
 #this one is a lot like the checkout one.
 def book_return():
+    
     all_books = BookClass.book_log_objects
     needed_book_id = input("Please enter a book ID to return: ")
 
@@ -15,6 +16,9 @@ def book_return():
             return
     
     print("No book has that ID")
+
+    #I need to do this because it must always be updated.
+    
 
     end_of_action = end_of_action_question()
 

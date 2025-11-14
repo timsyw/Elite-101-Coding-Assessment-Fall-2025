@@ -2,6 +2,9 @@
 #from function_flow import function_flow
 
 
+
+
+
 def try_user_input_int():
     while True:
         try:
@@ -70,7 +73,10 @@ def print_specific_book(book_inputed):
 def pathway_with_no_function_yet():
     print("This is currently being worked on. \nThere is a small chance it will be ready by the due date, but it is very unlikely. \nI ran out of time :( \n")
 
+from program_state import program_is_running
+
 def end_program():
+    global program_is_running
     program_is_running = False
 
 #made this so that it doesnt have to be written every time.
