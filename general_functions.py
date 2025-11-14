@@ -73,11 +73,10 @@ def print_specific_book(book_inputed):
 def pathway_with_no_function_yet():
     print("This is currently being worked on. \nThere is a small chance it will be ready by the due date, but it is very unlikely. \nI ran out of time :( \n")
 
-from program_state import program_is_running
+import program_state
 
 def end_program():
-    global program_is_running
-    program_is_running = False
+    program_state.program_is_running = False
 
 #made this so that it doesnt have to be written every time.
 def end_of_action_question():

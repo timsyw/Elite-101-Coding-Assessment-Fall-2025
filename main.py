@@ -44,6 +44,7 @@ from book_class import BookClass
 from function_flow import function_flow
 from general_functions import print_message, ask_user_next, print_options
 from program_state import program_is_running
+import program_state
 
 #creates a bunch of objects based on library list of dictionaries. Creates a list of references.
 def add_dictionaries_to_book_classes(list_of_books):
@@ -69,7 +70,8 @@ add_dictionaries_to_book_classes(library_books)
 
 
 if __name__ == "__main__":
-    while program_is_running == True:
+    #had AI help me with this main loop structure. I could not figure out how to end the program properly, and now it is working
+    while program_state.program_is_running:
 
         #prints the starting message
         print_message(current_message_id)
@@ -79,11 +81,8 @@ if __name__ == "__main__":
         #asks the user to answer the question of 
         current_message_id = ask_user_next(current_message_id, current_number_of_options)
 
-        #print_all_books_available()
-        #search_through_books()
-        #checkout_book()
 
-        #program_is_running = False
+
 
     print("Thanks for Using this Library Program!\n\n")
 
