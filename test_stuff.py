@@ -1,3 +1,9 @@
+#moved all code to main
+
+
+
+'''
+
 from library_books import library_books
 from book_class import BookClass
 from function_flow import function_flow
@@ -52,3 +58,5 @@ while program_is_running == True:
     #program_is_running = False
 
 print("Thanks for Using this Library Program!\n\n")
+
+'''

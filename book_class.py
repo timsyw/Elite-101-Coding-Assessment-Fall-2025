@@ -30,7 +30,7 @@ class BookClass:
 
             #basically the due variable is set to the time right now plus 14 days in the future (according to time delta)
             due = datetime.now() + timedelta(days=14)
-            #idk how to explain this one. It has to do with the date amounts. You only want to change the day. I had AI write this line for me.
+            #idk how to explain this one. It has to do with the date amounts. You only want to change the day. I had AI explain this to me many times.
             self.due_date = due.strftime("%Y-%m-%d")
             
             #add another checkout. this was really easy to understand.
@@ -40,3 +40,16 @@ class BookClass:
         else:
             print(f"\nOh no!\n\nThe book \"{self.title}\" is not available at the moment! It will be back on {self.due_date}.")
     
+
+    #for this next one I actually copied the function above, just not a lot. 
+    def return_book(self):
+        if self.available is False:
+            #make it available again
+            self.available = True
+
+            #clear due date I think this should work
+            self.due_date = None   
+
+            print(f"You returned \"{self.title}\"!")
+        else:
+            print(f"\nThis book (\"{self.title}\") is not checked out, so it can't be returned!")

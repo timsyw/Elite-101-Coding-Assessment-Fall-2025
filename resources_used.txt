@@ -1,4 +1,7 @@
-googled how to create a class (for revision):
+
+
+
+Googled how to create a class (for revision):
 - https://youtu.be/yYALsys-P_w?si=f0J61CAwLMi--Ifl
 
 
@@ -7,12 +10,18 @@ brainstormed with AI to figure out what the best way to make a search engine was
 used these resources to figure out how to use datetime:
 - https://www.w3schools.com/python/python_datetime.asp
 - http://docs.python.org/3/library/datetime.html
+- https://mimo.org/glossary/python/datetime
 
 
 was having lots of problems when I was seperating out all of the functions into different files based on their tasks.
 because of this I googled circular import:
 https://www.oneworldcoders.com/apprentice-journals/python-circular-imports
 
-I actually copied the code of one of my chatbot to make the menu system. here is the code from that one. 
+I actually copied the code of one of my chatbot to make the menu system. here is the code from that one. I dont think this is cheating.
 https://github.com/timsyw/bank-chatbot-c2c
+
+
+
+AI work:
+There is no work written by AI in this code. If I used AI to understand a concept then I gave it credit in the form of a comment.
 

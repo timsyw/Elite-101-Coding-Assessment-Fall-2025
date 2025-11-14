@@ -17,9 +17,10 @@ def run_function_from_flow(index1, function1):
     function_flow[index1]["functions"][function1-1]()
 '''
 
-#
+#made this better than the old one.
 def run_function_from_flow(index1, function1):
-    from function_flow import function_flow  #moved import inside the function
+    #moved import inside the function
+    from function_flow import function_flow  
     function_flow[index1]["functions"][function1-1]()
 
 
@@ -67,11 +68,12 @@ def print_specific_book(book_inputed):
     print("---\n")
 
 def pathway_with_no_function_yet():
-    print("This has not been made yet.")
+    print("This is currently being worked on. \nThere is a small chance it will be ready by the due date, but it is very unlikely. \nI ran out of time :( \n")
 
 def end_program():
     program_is_running = False
 
+#made this so that it doesnt have to be written every time.
 def end_of_action_question():
     while True:
         user_choice = input("Would you like to return to menu?(y/n) If you pick \"n\" you will do this action again.\n--> ")
