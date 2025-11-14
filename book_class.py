@@ -15,6 +15,19 @@ class BookClass:
         # current object adds itself to the list of other class objects
         BookClass.book_log_objects.append(self)
     
-    def checkout(self):
-        self.available = False
-        
+    '''
+    def checkout(self, when_it_is_due):
+        if self.available = True:
+            # if it is available this next parts should run
+
+            # this below sets the availability in the current object to false pretty self explainatory.
+            self.available = False
+
+            # I had AI help me heavily with this part. 
+            # It was hard setting the due date to 2 weeks later.
+            # datetime is foreign to me, and I had to dig through a bunch of online web documentation
+            # in order to get it to work properly
+            self.due_date = when_is_it_due
+        else:
+            print(f"The book you are searching for is not here. The book will be back {self.due_date}")
+    '''

@@ -1,7 +1,11 @@
-googled how to create a class (for revision)
+googled how to create a class (for revision):
 - https://youtu.be/yYALsys-P_w?si=f0J61CAwLMi--Ifl
 
 
 brainstormed with AI to figure out what the best way to make a search engine was.
 
-used this video to figure out how to used datetime
+used these resources to figure out how to use datetime:
+- https://www.w3schools.com/python/python_datetime.asp
+- http://docs.python.org/3/library/datetime.html
+
+
